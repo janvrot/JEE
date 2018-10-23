@@ -1,0 +1,552 @@
+.site-title {
+  font-size: 3rem;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.header-container {
+  padding: 10px 0 20px;
+  background: #149ce0;
+  border-bottom: 1px solid white;
+}
+
+.logo {
+  float: left;
+}
+
+.loginMenu {
+  float: right;
+}
+
+.loginMenu li {
+  float: left;
+  list-style-type: none;
+  margin-left: 15px;
+}
+
+.loginMenu li a {
+  transition: all 0.5s;
+}
+
+.loginMenu li a:hover {
+  color: #FDAF00;
+  text-decoration: none;
+}
+
+.nav li a.active,.loginMenu li a.active {
+  color: #FDAF00;
+  text-decoration: none;
+}
+
+.nav {
+  float: left;
+  padding-top: 13px;
+  width: 100%;
+}
+
+.nav li {
+  float: left;
+  list-style-type: none;
+}
+
+.nav li:last-child a:after {
+  display: none;
+}
+
+.nav li a {
+  margin-right: 3px;
+  display: block;
+}
+
+.nav li a:hover {
+  color: #FDAF00;
+  text-decoration: none;
+}
+
+.nav li a:after {
+  content: "";
+  width: 2px;
+  background: #FDAF00;
+  height: 10px;
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.medecin-home {
+  background: url(../images/home.jpg) no-repeat center 0;
+}
+
+.patient-home {
+  background: url(../images/patient-home.jpg) no-repeat center 0;
+}
+
+.creation-compte {
+  background: url(../images/creation-compte.jpg) no-repeat center 0;
+}
+
+.rendez-vous {
+  background: url(../images/rendez-vous.jpg) no-repeat center 0;
+}
+
+.personal-information {
+  background: url(../images/personal-information.jpg) no-repeat center 0;
+}
+
+.search-patient {
+  background: url(../images/search-patient.jpg) no-repeat center 0;
+}
+
+.presence-rendez-vous {
+  background: url(../images/presence-rendez-vous.jpg) no-repeat center 0;
+}
+
+.connexion {
+  background: url(../images/connexion.jpg) no-repeat center 0;
+}
+
+.forgot-password {
+  background: url(../images/forgot-password.jpg) no-repeat center 0;
+}
+
+.forgot-password .content-container {
+  background-image: url("../images/forgot-password-icon.png");
+  background-repeat: no-repeat;
+  background-position: 99% 95%;
+}
+
+.content-outer {
+  background-size: cover;
+  padding: 20px 15px;
+  min-height: 560px;
+}
+
+.content-outer .content-container:not(.connexion-container) {
+  background-color: rgba(249, 192, 60, 0.6);
+  padding: 26px 0 0 0;
+}
+
+.content-outer .content-container:not(.connexion-container) .content {
+  max-width: 735px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 50px 0;
+}
+
+.search-patient .content-container .content, .presenc-rendez-vous .content-container .content {
+  max-width: 900px;
+  width: 100%;
+}
+
+.home-links {
+  padding: 70px 0 0 0;
+}
+
+.home-links .links {
+  padding: 30px 0 0 0;
+}
+
+.home-links .links a {
+  background-position: -8px -3px;
+  font-size: 1.7rem;
+  color: #b0aeae;
+  display: inline-block;
+  padding: 16px 0 16px 48px;
+  max-width: 456px;
+  width: 100%;
+  display: inline-block;
+  background-color: white;
+  margin-bottom: 6px;
+  text-decoration: underline;
+}
+
+.home-links .links a:hover {
+  color: #149ce0;
+}
+
+.formulaire {
+  margin: 35px 0 0 0;
+}
+
+.formulaire form p {
+  margin: 0 0 6px 0;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+table th {
+  background: #149ce0;
+  text-align: center;
+  border-right: 2px solid white;
+  vertical-align: middle;
+}
+
+table th:last-child {
+  border: 0;
+}
+
+table td {
+  color: #149ce0;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  vertical-align: top;
+}
+
+table td p {
+  color: #149ce0;
+  text-align: center;
+}
+
+table td a {
+  color: #149ce0;
+  text-align: center;
+  text-decoration: underline;
+}
+
+table td a:hover {
+  color: white;
+}
+
+table th, table td {
+  padding: 15px 10px;
+}
+
+table th:last-child, table td:last-child {
+  border-right: 0;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+table.selection-creneau {
+  background: none;
+  max-width: 100%;
+  margin: 20px auto 0 auto;
+}
+
+table.selection-creneau tr.spacer {
+  height: 2px;
+}
+
+table.selection-creneau td {
+  background-color: rgba(255, 255, 255, 0.28);
+}
+
+table.selection-creneau th, table.selection-creneau td {
+  border: 0;
+  text-align: left;
+}
+
+table.selection-creneau th:last-child, table.selection-creneau td:last-child {
+  text-align: right;
+}
+
+table.presence {
+  margin-top: 47px;
+}
+
+table.presence td:last-child {
+  vertical-align: middle;
+}
+
+.search-form {
+  margin-top: 47px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.search-form button {
+  max-width: 175px;
+  margin: 0;
+}
+
+.search-form input {
+  height: 42px;
+  margin-right: 5px;
+}
+
+.search-form select {
+  height: 42px;
+  margin-right: 5px;
+}
+
+.righ-block {
+  max-width: 500px;
+  float: right;
+  background: #fdaf00;
+  border-radius: 10px;
+  padding: 50px;
+  margin-top: 65px;
+  margin-right: 20px;
+  background: url("../images/login-icon.png") no-repeat 50px calc(100% - 50px) #fdaf00;
+}
+
+.righ-block h3 {
+  background: url("../images/h3-border.png") no-repeat 50% 100%;
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 10px;
+  font-weight: normal;
+}
+
+.righ-block input[type="text"] {
+  background-position: -3px -133px;
+  padding-left: 42px;
+}
+
+.righ-block input[type="password"] {
+  background-position: 0px -200px;
+  padding-left: 42px;
+}
+
+.righ-block input, .righ-block button {
+  border-radius: 8px;
+  margin-top: 47px;
+}
+
+.righ-block button {
+  max-width: 196px;
+  float: right;
+  background: white;
+  color: #a5a4a5;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+}
+
+.righ-block .forgot-pass-link {
+  display: block;
+  text-decoration: underline;
+  float: right;
+  margin-top: 10px;
+}
+.datepicker-panel > ul > li{
+  color: #999;
+}
+/*!
+ * Datepicker v0.6.4
+ * https://github.com/fengyuanchen/datepicker
+ *
+ * Copyright (c) 2014-2017 Chen Fengyuan
+ * Released under the MIT license
+ *
+ * Date: 2017-11-24T14:38:19.628Z
+ */
+
+.datepicker-container {
+  background-color: #fff;
+  direction: ltr;
+  font-size: 12px;
+  left: 0;
+  line-height: 30px;
+  position: fixed;
+  top: 0;
+  -ms-touch-action: none;
+  touch-action: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 210px;
+  z-index: -1;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+}
+
+.datepicker-container::before,
+.datepicker-container::after {
+  border: 5px solid transparent;
+  content: " ";
+  display: block;
+  height: 0;
+  position: absolute;
+  width: 0;
+}
+
+.datepicker-dropdown {
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 0 3px 6px #ccc;
+  box-shadow: 0 3px 6px #ccc;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  position: absolute;
+  z-index: 1;
+}
+
+.datepicker-inline {
+  position: static;
+}
+
+.datepicker-top-left,
+.datepicker-top-right {
+  border-top-color: #39f;
+}
+
+.datepicker-top-left::before,
+.datepicker-top-left::after,
+.datepicker-top-right::before,
+.datepicker-top-right::after {
+  border-top: 0;
+  left: 10px;
+  top: -5px;
+}
+
+.datepicker-top-left::before,
+.datepicker-top-right::before {
+  border-bottom-color: #39f;
+}
+
+.datepicker-top-left::after,
+.datepicker-top-right::after {
+  border-bottom-color: #fff;
+  top: -4px;
+}
+
+.datepicker-bottom-left,
+.datepicker-bottom-right {
+  border-bottom-color: #39f;
+}
+
+.datepicker-bottom-left::before,
+.datepicker-bottom-left::after,
+.datepicker-bottom-right::before,
+.datepicker-bottom-right::after {
+  border-bottom: 0;
+  bottom: -5px;
+  left: 10px;
+}
+
+.datepicker-bottom-left::before,
+.datepicker-bottom-right::before {
+  border-top-color: #39f;
+}
+
+.datepicker-bottom-left::after,
+.datepicker-bottom-right::after {
+  border-top-color: #fff;
+  bottom: -4px;
+}
+
+.datepicker-top-right::before,
+.datepicker-top-right::after,
+.datepicker-bottom-right::before,
+.datepicker-bottom-right::after {
+  left: auto;
+  right: 10px;
+}
+
+.datepicker-panel > ul {
+  margin: 0;
+  padding: 0;
+  width: 102%;
+}
+
+.datepicker-panel > ul::before,
+.datepicker-panel > ul::after {
+  content: " ";
+  display: table;
+}
+
+.datepicker-panel > ul::after {
+  clear: both;
+}
+
+.datepicker-panel > ul > li {
+  background-color: #fff;
+  cursor: pointer;
+  float: left;
+  height: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 30px;
+}
+
+.datepicker-panel > ul > li:hover {
+  background-color: rgb(229, 242, 255);
+}
+
+.datepicker-panel > ul > li.muted,
+.datepicker-panel > ul > li.muted:hover { 
+  color: #999;
+}
+
+.datepicker-panel > ul > li.highlighted {
+  background-color: rgb(229, 242, 255);
+}
+
+.datepicker-panel > ul > li.highlighted:hover {
+  background-color: rgb(204, 229, 255);
+}
+
+.datepicker-panel > ul > li.picked,
+.datepicker-panel > ul > li.picked:hover {
+  color: #39f;
+}
+
+.datepicker-panel > ul > li.disabled,
+.datepicker-panel > ul > li.disabled:hover {
+  background-color: #fff;
+  color: #ccc;
+  cursor: default;
+}
+
+.datepicker-panel > ul > li.disabled.highlighted,
+.datepicker-panel > ul > li.disabled:hover.highlighted {
+  background-color: rgb(229, 242, 255);
+}
+
+.datepicker-panel > ul > li[data-view="years prev"],
+.datepicker-panel > ul > li[data-view="year prev"],
+.datepicker-panel > ul > li[data-view="month prev"],
+.datepicker-panel > ul > li[data-view="years next"],
+.datepicker-panel > ul > li[data-view="year next"],
+.datepicker-panel > ul > li[data-view="month next"],
+.datepicker-panel > ul > li[data-view="next"] {
+  font-size: 18px;
+}
+
+.datepicker-panel > ul > li[data-view="years current"],
+.datepicker-panel > ul > li[data-view="year current"],
+.datepicker-panel > ul > li[data-view="month current"] {
+  width: 150px;
+}
+
+.datepicker-panel > ul[data-view="years"] > li,
+.datepicker-panel > ul[data-view="months"] > li {
+  height: 52.5px;
+  line-height: 52.5px;
+  width: 52.5px;
+}
+
+.datepicker-panel > ul[data-view="week"] > li,
+.datepicker-panel > ul[data-view="week"] > li:hover {
+  background-color: #fff;
+  cursor: default;
+}
+
+.datepicker-hide {
+  display: none;
+}
+
+input:focus{
+  outline: none;
+}
+
+input.error,
+label.error{
+  color : red;
+}
+input.error{
+  border : 1px solid red;
+}

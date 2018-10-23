@@ -1,0 +1,9 @@
+com\cours\allo\docteur\servlets\SelectCreneauServlet.class
+com\cours\allo\docteur\servlets\LoginServlet.class
+com\cours\allo\docteur\servlets\UpdatePatientServlet.class
+com\cours\allo\docteur\servlets\ExportServlet.class
+com\cours\allo\docteur\servlets\ManagePatientServlet.class
+com\cours\allo\docteur\servlets\RendezVousServlet.class
+com\cours\allo\docteur\servlets\FindMedecinServlet.class
+com\cours\allo\docteur\servlets\ChooseRendezVousServlet.class
+com\cours\allo\docteur\servlets\CreatePatientServlet.class
